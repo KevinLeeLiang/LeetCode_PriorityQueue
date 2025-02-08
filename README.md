@@ -9,3 +9,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [23. 合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L23_mergeKLists](L23_mergeKLists)
 
 [215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/?envType=problem-list-v2&envId=heap-priority-queue) : [L215_findKthLargest](L215_findKthLargest)
+
+[218. 天际线问题](https://leetcode.cn/problems/the-skyline-problem/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L218_getSkyline](L218_getSkyline)
+
+[239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L239_maxSlidingWindow](L239_maxSlidingWindow)
