@@ -18,6 +18,8 @@
 #include "L215_findKthLargest/L215_findKthLargest.h"
 #include "L218_getSkyline/L218_getSkyline.h"
 #include "L239_maxSlidingWindow/L239_maxSlidingWindow.h"
+#include "L264_nthUglyNumber/L264_nthUglyNumber.h"
+#include "L295_MedianOfDataFlow/L295_MedianOfDataFlow.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -32,6 +34,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L239") {
             std::shared_ptr<L239_maxSlidingWindow> tmp= std::make_shared<L239_maxSlidingWindow>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L264") {
+            std::shared_ptr<L264_nthUglyNumber> tmp= std::make_shared<L264_nthUglyNumber>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L295") {
+            std::shared_ptr<L295_MedianOfDataFlow> tmp= std::make_shared<L295_MedianOfDataFlow>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }

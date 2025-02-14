@@ -13,3 +13,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [218. 天际线问题](https://leetcode.cn/problems/the-skyline-problem/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L218_getSkyline](L218_getSkyline)
 
 [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L239_maxSlidingWindow](L239_maxSlidingWindow)
+
+[264. 丑数II](https://leetcode.cn/problems/ugly-number-ii/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L264_nthUglyNumber](L264_nthUglyNumber)
+
+[295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L295_findMedianFromDataStream](L295_findMedianFromDataStream)
