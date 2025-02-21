@@ -20,6 +20,9 @@
 #include "L239_maxSlidingWindow/L239_maxSlidingWindow.h"
 #include "L264_nthUglyNumber/L264_nthUglyNumber.h"
 #include "L295_MedianOfDataFlow/L295_MedianOfDataFlow.h"
+#include "L347_topKFrequent/L347_topKFrequent.h"
+#include "L355_Twitter/L355_Twitter.h"
+
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -41,6 +44,14 @@ private:
         } else if (title == "L295") {
             std::shared_ptr<L295_MedianOfDataFlow> tmp= std::make_shared<L295_MedianOfDataFlow>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L347") {
+            std::shared_ptr<L347_topKFrequent> tmp= std::make_shared<L347_topKFrequent>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L355") {
+            std::shared_ptr<L355_Twitter> tmp= std::make_shared<L355_Twitter>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

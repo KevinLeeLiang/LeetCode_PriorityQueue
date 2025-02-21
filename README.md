@@ -17,3 +17,8 @@ LeetCode堆（优先队列）算法题的解题仓库
 [264. 丑数II](https://leetcode.cn/problems/ugly-number-ii/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L264_nthUglyNumber](L264_nthUglyNumber)
 
 [295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L295_findMedianFromDataStream](L295_findMedianFromDataStream)
+
+[347. 前K个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L347_topKFrequent](L347_topKFrequent)
+
+[355. 设计推特](https://leetcode.cn/problems/design-twitter/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L355_Twitter](L355_Twitter)
+
