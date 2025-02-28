@@ -22,3 +22,8 @@ LeetCode堆（优先队列）算法题的解题仓库
 
 [355. 设计推特](https://leetcode.cn/problems/design-twitter/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L355_Twitter](L355_Twitter)
 
+[373. 查找和最小的K对数字](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L373_kSmallestPairs](L373_kSmallestPairs)
+
+[378. 有序矩阵中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L378_kthSmallest](L378_kthSmallest)
+
+

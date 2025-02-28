@@ -22,6 +22,8 @@
 #include "L295_MedianOfDataFlow/L295_MedianOfDataFlow.h"
 #include "L347_topKFrequent/L347_topKFrequent.h"
 #include "L355_Twitter/L355_Twitter.h"
+#include "L373_kSmallestPairs/L373_kSmallestPairs.h"
+#include "L378_kthSmallest/L378_kthSmallest.h"
 
 class test_factory {
 private:
@@ -50,9 +52,14 @@ private:
         } else if (title == "L355") {
             std::shared_ptr<L355_Twitter> tmp= std::make_shared<L355_Twitter>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L373") {
+            std::shared_ptr<L373_kSmallestPairs> tmp= std::make_shared<L373_kSmallestPairs>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L378"){
+            std::shared_ptr<L378_kthSmallest> tmp= std::make_shared<L378_kthSmallest>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
+
     }
 public:
     test_factory(string title) {
