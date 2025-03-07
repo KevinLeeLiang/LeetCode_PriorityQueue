@@ -26,4 +26,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 
 [378. 有序矩阵中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L378_kthSmallest](L378_kthSmallest)
 
+[407. 接雨水II](https://leetcode.cn/problems/trapping-rain-water-ii/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L407_trapRainWater](L407_trapRainWater)
+
+[420. 强密码检验器](https://leetcode.cn/problems/strong-password-checker/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L420_strongPasswordChecker](L420_strongPasswordChecker)
 

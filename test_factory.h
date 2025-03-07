@@ -24,6 +24,8 @@
 #include "L355_Twitter/L355_Twitter.h"
 #include "L373_kSmallestPairs/L373_kSmallestPairs.h"
 #include "L378_kthSmallest/L378_kthSmallest.h"
+#include "L407_trapRainWater/L407_trapRainWater.h"
+#include "L420_strongPasswordChecker/L420_strongPasswordChecker.h"
 
 class test_factory {
 private:
@@ -57,6 +59,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L378"){
             std::shared_ptr<L378_kthSmallest> tmp= std::make_shared<L378_kthSmallest>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L407") {
+            std::shared_ptr<L407_trapRainWater> tmp= std::make_shared<L407_trapRainWater>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L420") {
+            std::shared_ptr<L420_strongPasswordChecker> tmp= std::make_shared<L420_strongPasswordChecker>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
 
