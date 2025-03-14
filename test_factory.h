@@ -26,6 +26,8 @@
 #include "L378_kthSmallest/L378_kthSmallest.h"
 #include "L407_trapRainWater/L407_trapRainWater.h"
 #include "L420_strongPasswordChecker/L420_strongPasswordChecker.h"
+#include "L451_frequencySort/L451_frequencySort.h"
+#include "L480_medianSlidingWindow/L480_medianSlidingWindow.h"
 
 class test_factory {
 private:
@@ -66,6 +68,14 @@ private:
         } else if (title == "L420") {
             std::shared_ptr<L420_strongPasswordChecker> tmp= std::make_shared<L420_strongPasswordChecker>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L451") {
+            std::shared_ptr<L451_frequencySort> tmp= std::make_shared<L451_frequencySort>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L480") {
+            std::shared_ptr<L480_medianSlidingWindow> tmp= std::make_shared<L480_medianSlidingWindow>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
 
     }

@@ -30,3 +30,6 @@ LeetCode堆（优先队列）算法题的解题仓库
 
 [420. 强密码检验器](https://leetcode.cn/problems/strong-password-checker/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L420_strongPasswordChecker](L420_strongPasswordChecker)
 
+[451. 根据字符出现频率排序](https://leetcode.cn/problems/sort-characters-by-frequency/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L451_frequencySort](L451_frequencySort)
+
+[480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L480_medianSlidingWindow](L480_medianSlidingWindow)
