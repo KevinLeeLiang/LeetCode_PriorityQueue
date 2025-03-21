@@ -33,3 +33,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [451. 根据字符出现频率排序](https://leetcode.cn/problems/sort-characters-by-frequency/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L451_frequencySort](L451_frequencySort)
 
 [480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L480_medianSlidingWindow](L480_medianSlidingWindow)
+
+[502. IPO](https://leetcode.cn/problems/ipo/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L502_findMaximizedCapital](L502_findMaximizedCapital)
+
+[506. 相对名次](https://leetcode.cn/problems/relative-ranks/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L506_findRelativeRanks](L506_findRelativeRanks)

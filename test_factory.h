@@ -28,6 +28,8 @@
 #include "L420_strongPasswordChecker/L420_strongPasswordChecker.h"
 #include "L451_frequencySort/L451_frequencySort.h"
 #include "L480_medianSlidingWindow/L480_medianSlidingWindow.h"
+#include "L502_findMaximizedCapital/L502_findMaximizedCapital.h"
+#include "L506_findRelativeRanks/L506_findRelativeRanks.h"
 
 class test_factory {
 private:
@@ -74,10 +76,13 @@ private:
         } else if (title == "L480") {
             std::shared_ptr<L480_medianSlidingWindow> tmp= std::make_shared<L480_medianSlidingWindow>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L502") {
+            std::shared_ptr<L502_findMaximizedCapital> tmp= std::make_shared<L502_findMaximizedCapital>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L506") {
+            std::shared_ptr<L506_findRelativeRanks> tmp= std::make_shared<L506_findRelativeRanks>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
-
     }
 public:
     test_factory(string title) {
