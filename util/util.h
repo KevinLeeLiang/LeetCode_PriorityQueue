@@ -33,6 +33,7 @@
 #include <cstdint>
 #include <cstdarg>
 #include <list>
+#include <numeric>
 
 using namespace std;
 

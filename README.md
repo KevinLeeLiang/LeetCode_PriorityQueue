@@ -37,3 +37,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [502. IPO](https://leetcode.cn/problems/ipo/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L502_findMaximizedCapital](L502_findMaximizedCapital)
 
 [506. 相对名次](https://leetcode.cn/problems/relative-ranks/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L506_findRelativeRanks](L506_findRelativeRanks)
+
+[621. 任务调度器](https://leetcode.cn/problems/task-scheduler/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L621_leastInterval](L621_leastInterval)
+
+[630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L630_scheduleCourse](L630_scheduleCourse)

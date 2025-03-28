@@ -30,6 +30,8 @@
 #include "L480_medianSlidingWindow/L480_medianSlidingWindow.h"
 #include "L502_findMaximizedCapital/L502_findMaximizedCapital.h"
 #include "L506_findRelativeRanks/L506_findRelativeRanks.h"
+#include "L621_leastInterval/L621_leastInterval.h"
+#include "L630_scheduleCourse/L630_scheduleCourse.h"
 
 class test_factory {
 private:
@@ -81,6 +83,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L506") {
             std::shared_ptr<L506_findRelativeRanks> tmp= std::make_shared<L506_findRelativeRanks>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L621") {
+            std::shared_ptr<L621_leastInterval> tmp= std::make_shared<L621_leastInterval>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L630") {
+            std::shared_ptr<L630_scheduleCourse> tmp= std::make_shared<L630_scheduleCourse>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }
