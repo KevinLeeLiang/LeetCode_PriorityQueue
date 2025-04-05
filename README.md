@@ -41,3 +41,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [621. 任务调度器](https://leetcode.cn/problems/task-scheduler/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L621_leastInterval](L621_leastInterval)
 
 [630. 课程表 III](https://leetcode.cn/problems/course-schedule-iii/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L630_scheduleCourse](L630_scheduleCourse)
+
+[632. 最小区间](https://leetcode.cn/problems/smallest-range/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L632_smallestRange](L632_smallestRange)
+
+[658. 找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L658_findClosestElements](L658_findClosestElements)

@@ -32,6 +32,8 @@
 #include "L506_findRelativeRanks/L506_findRelativeRanks.h"
 #include "L621_leastInterval/L621_leastInterval.h"
 #include "L630_scheduleCourse/L630_scheduleCourse.h"
+#include "L632_smallestRange/L632_smallestRange.h"
+#include "L658_findClosestElements/L658_findClosetElements.h"
 
 class test_factory {
 private:
@@ -89,6 +91,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L630") {
             std::shared_ptr<L630_scheduleCourse> tmp= std::make_shared<L630_scheduleCourse>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L632") {
+            std::shared_ptr<L632_smallestRange> tmp = std::make_shared<L632_smallestRange>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L658") {
+            std::shared_ptr<L658_findClosetElements> tmp = std::make_shared<L658_findClosetElements>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }
