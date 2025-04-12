@@ -34,6 +34,9 @@
 #include "L630_scheduleCourse/L630_scheduleCourse.h"
 #include "L632_smallestRange/L632_smallestRange.h"
 #include "L658_findClosestElements/L658_findClosetElements.h"
+#include "L659_isPossible/L659_isPossible.h"
+#include "L675_cutOffTree/L675_cutOffTree.h"
+
 
 class test_factory {
 private:
@@ -98,6 +101,14 @@ private:
         } else if (title == "L658") {
             std::shared_ptr<L658_findClosetElements> tmp = std::make_shared<L658_findClosetElements>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L659") {
+            std::shared_ptr<L659_isPossible> tmp = std::make_shared<L659_isPossible>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L675") {
+            std::shared_ptr<L675_cutOffTree> tmp = std::make_shared<L675_cutOffTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

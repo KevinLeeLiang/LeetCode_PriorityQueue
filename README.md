@@ -45,3 +45,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [632. 最小区间](https://leetcode.cn/problems/smallest-range/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L632_smallestRange](L632_smallestRange)
 
 [658. 找到 K 个最接近的元素](https://leetcode.cn/problems/find-k-closest-elements/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L658_findClosestElements](L658_findClosestElements)
+
+[659. 分割数组为连续子序列](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L659_isPossible](L659_isPossible)
+
+[675. 为高尔夫比赛砍树](https://leetcode.cn/problems/cut-off-trees-for-golf-event/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L675_cutOffTree](L675_cutOffTree)
