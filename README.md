@@ -49,3 +49,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [659. 分割数组为连续子序列](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L659_isPossible](L659_isPossible)
 
 [675. 为高尔夫比赛砍树](https://leetcode.cn/problems/cut-off-trees-for-golf-event/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L675_cutOffTree](L675_cutOffTree)
+
+[692. 前K个高频单词](https://leetcode.cn/problems/top-k-frequent-words/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L692_topKFrequent](L692_topKFrequent)
+
+[703. 数据流中的第K大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L703_KthLargest](L703_KthLargest)

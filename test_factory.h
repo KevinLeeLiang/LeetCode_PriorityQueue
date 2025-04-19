@@ -36,6 +36,8 @@
 #include "L658_findClosestElements/L658_findClosetElements.h"
 #include "L659_isPossible/L659_isPossible.h"
 #include "L675_cutOffTree/L675_cutOffTree.h"
+#include "L692_topKFrequent/L692_topKFrequent.h"
+#include "L703_KthLargest/L703_KthLargest.h"
 
 
 class test_factory {
@@ -107,8 +109,12 @@ private:
         } else if (title == "L675") {
             std::shared_ptr<L675_cutOffTree> tmp = std::make_shared<L675_cutOffTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L692") {
+            std::shared_ptr<L692_topKFrequent> tmp = std::make_shared<L692_topKFrequent>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L703") {
+            std::shared_ptr<L703_KthLargest> tmp = std::make_shared<L703_KthLargest>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }
 public:
