@@ -53,3 +53,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [692. 前K个高频单词](https://leetcode.cn/problems/top-k-frequent-words/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L692_topKFrequent](L692_topKFrequent)
 
 [703. 数据流中的第K大元素](https://leetcode.cn/problems/kth-largest-element-in-a-stream/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L703_KthLargest](L703_KthLargest)
+
+[743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L743_networkDelayTime](L743_networkDelayTime)
+
+[767. 重构字符串](https://leetcode.cn/problems/reorganize-string/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L767_reorganizeString](L767_reorganizeString)

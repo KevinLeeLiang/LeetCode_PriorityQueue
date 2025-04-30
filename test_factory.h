@@ -38,7 +38,8 @@
 #include "L675_cutOffTree/L675_cutOffTree.h"
 #include "L692_topKFrequent/L692_topKFrequent.h"
 #include "L703_KthLargest/L703_KthLargest.h"
-
+#include "L743_networkDelayTime/L743_networkDelayTime.h"
+#include "L767_reorganizeString/L767_reorganizeString.h"
 
 class test_factory {
 private:
@@ -114,6 +115,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L703") {
             std::shared_ptr<L703_KthLargest> tmp = std::make_shared<L703_KthLargest>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L743") {
+            std::shared_ptr<L743_networkDelayTime> tmp = std::make_shared<L743_networkDelayTime>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L767") {
+            std::shared_ptr<L767_reorganizeString> tmp = std::make_shared<L767_reorganizeString>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }
