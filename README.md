@@ -57,3 +57,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L743_networkDelayTime](L743_networkDelayTime)
 
 [767. 重构字符串](https://leetcode.cn/problems/reorganize-string/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L767_reorganizeString](L767_reorganizeString)
+
+[778. 水位上升的泳池中游泳](https://leetcode.cn/problems/swim-in-rising-water/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L778_swimInRisingWater](L778_swimInRisingWater)
+
+[786. 第K个最小的素数因子](https://leetcode.cn/problems/k-th-smallest-prime-fraction/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L786_kthSmallestPrimeFraction](L786_kthSmallestPrimeFraction)

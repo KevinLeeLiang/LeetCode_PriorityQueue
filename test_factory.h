@@ -40,6 +40,8 @@
 #include "L703_KthLargest/L703_KthLargest.h"
 #include "L743_networkDelayTime/L743_networkDelayTime.h"
 #include "L767_reorganizeString/L767_reorganizeString.h"
+#include "L778_swimInWater/L778_swimInWater.h"
+#include "L786_kthSmallestPrimeFraction/L786_kthSmallestPrimeFraction.h"
 
 class test_factory {
 private:
@@ -121,6 +123,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L767") {
             std::shared_ptr<L767_reorganizeString> tmp = std::make_shared<L767_reorganizeString>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L778") {
+            std::shared_ptr<L778_swimInWater> tmp = std::make_shared<L778_swimInWater>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L786") {
+            std::shared_ptr<L786_kthSmallestPrimeFraction> tmp = std::make_shared<L786_kthSmallestPrimeFraction>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }
