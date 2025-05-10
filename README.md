@@ -61,3 +61,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [778. 水位上升的泳池中游泳](https://leetcode.cn/problems/swim-in-rising-water/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L778_swimInRisingWater](L778_swimInRisingWater)
 
 [786. 第K个最小的素数因子](https://leetcode.cn/problems/k-th-smallest-prime-fraction/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L786_kthSmallestPrimeFraction](L786_kthSmallestPrimeFraction)
+
+[787, K 站中转内最便宜的航班](https://leetcode.cn/problems/cheapest-flights-within-k-stops/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L787_findCheapestPrice](L787_findCheapestPrice)
+
+[855. 考场就座](https://leetcode.cn/problems/exam-room/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L855_ExamRoom](L855_ExamRoom)

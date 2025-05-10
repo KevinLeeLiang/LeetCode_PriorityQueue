@@ -42,6 +42,8 @@
 #include "L767_reorganizeString/L767_reorganizeString.h"
 #include "L778_swimInWater/L778_swimInWater.h"
 #include "L786_kthSmallestPrimeFraction/L786_kthSmallestPrimeFraction.h"
+#include "L787_findCheapestPrice/L787_findCheapestPrice.h"
+#include "L855_ExamRoom/L855_ExamRoom.h"
 
 class test_factory {
 private:
@@ -129,6 +131,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L786") {
             std::shared_ptr<L786_kthSmallestPrimeFraction> tmp = std::make_shared<L786_kthSmallestPrimeFraction>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L787") {
+            std::shared_ptr<L787_findCheapestPrice> tmp = std::make_shared<L787_findCheapestPrice>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L855") {
+            std::shared_ptr<L855_ExamRoom> tmp = std::make_shared<L855_ExamRoom>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }

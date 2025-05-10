@@ -15,35 +15,32 @@
 using namespace L778;
 int L778_swimInWater::swimInWater(vector<vector<int>>& grid) {
     int n = grid.size();
-    priority_queue<Entry, vector<Entry>, function<bool(const Entry& x, const Entry& other)>> pq(&Entry::operator<);
-    vector<vector<int>> visited(n, vector<int>(n, 0));
+    vector<int> f(n * n);
+    for (int i = 0; i < n * n; i++) {
+        f[i] = i;
+    }
 
-    pq.push(Entry(0, 0, grid[0][0]));
-    int ret = 0;
-    vector<pair<int, int>> directions{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-    while (!pq.empty()) {
-        Entry x = pq.top();
-        pq.pop();
-        if (visited[x.i][x.j] == 1) {
-            continue;
-        }
-
-        visited[x.i][x.j] = 1;
-        ret = max(ret, grid[x.i][x.j]);
-        if (x.i == n - 1 && x.j == n - 1) {
-            break;
-        }
-
-        for (const auto [di, dj]: directions) {
-            int ni = x.i + di, nj = x.j + dj;
-            if (ni >= 0 && ni < n && nj >= 0 && nj < n) {
-                if (visited[ni][nj] == 0) {
-                    pq.push(Entry(ni, nj, grid[ni][nj]));
-                }
-            }
+    vector<pair<int, int>> idx(n * n); // 存储每个平台高度对应的位置
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            idx[grid[i][j]] = make_pair(i, j);
         }
     }
-    return ret;
+
+    vector<pair<int, int>> directions{{0,1},{0,-1},{1,0},{-1,0}};
+    for (int threshold = 0; threshold < n * n; threshold++) {
+        auto [i, j] = idx[threshold];
+        for (const auto [di, dj]: directions) {
+            int ni = i + di, nj = j + dj;
+            if (ni >= 0 && ni < n && nj >= 0 && nj < n && grid[ni][nj] <= threshold) {
+                merge(f, i * n + j, ni * n + nj);
+            }
+        }
+        if (find(f, 0) == find(f, n * n - 1)) {
+            return threshold;
+        }
+    }
+    return -1; // cannot happen
 }
 
 void L778_swimInWater::test() {

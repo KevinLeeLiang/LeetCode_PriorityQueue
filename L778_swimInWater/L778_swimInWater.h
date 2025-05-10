@@ -28,6 +28,20 @@ namespace L778 {
 }
 class L778_swimInWater : public LeetcodePriorityQueue {
 private:
+    int find(vector<int>& f, int x) {
+        if (f[x] == x) {
+            return x;
+        }
+        int fa = find(f, f[x]);
+        f[x] = fa;
+        return fa;
+    }
+
+    void merge(vector<int>& f, int x, int y) {
+        int fx = find(f, x), fy = find(f, y);
+        f[fx] = fy;
+    }
+
     int swimInWater(vector<vector<int>>& grid);
 public :
     L778_swimInWater() {}
