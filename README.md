@@ -65,3 +65,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [787, K 站中转内最便宜的航班](https://leetcode.cn/problems/cheapest-flights-within-k-stops/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L787_findCheapestPrice](L787_findCheapestPrice)
 
 [855. 考场就座](https://leetcode.cn/problems/exam-room/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L855_ExamRoom](L855_ExamRoom)
+
+[857. 雇佣 K 名工人的最低成本](https://leetcode.cn/problems/minimum-cost-to-hire-k-workers/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L857_mincostToHireWorkers](L857_mincostToHireWorkers)
+
+[862. 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L862_shortestSubarray](L862_shortestSubarray)

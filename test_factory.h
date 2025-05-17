@@ -44,6 +44,8 @@
 #include "L786_kthSmallestPrimeFraction/L786_kthSmallestPrimeFraction.h"
 #include "L787_findCheapestPrice/L787_findCheapestPrice.h"
 #include "L855_ExamRoom/L855_ExamRoom.h"
+#include "L857_mincostToHireWorkers/L857_mincostToHireWorkers.h"
+#include "L862_shortestSubarray/L862_shortestSubarray.h"
 
 class test_factory {
 private:
@@ -137,6 +139,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L855") {
             std::shared_ptr<L855_ExamRoom> tmp = std::make_shared<L855_ExamRoom>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L857") {
+            std::shared_ptr<L857_mincostToHireWorkers> tmp = std::make_shared<L857_mincostToHireWorkers>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L862") {
+            std::shared_ptr<L862_shortestSubarray> tmp = std::make_shared<L862_shortestSubarray>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }
