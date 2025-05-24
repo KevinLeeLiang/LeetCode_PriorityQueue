@@ -69,3 +69,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [857. 雇佣 K 名工人的最低成本](https://leetcode.cn/problems/minimum-cost-to-hire-k-workers/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L857_mincostToHireWorkers](L857_mincostToHireWorkers)
 
 [862. 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L862_shortestSubarray](L862_shortestSubarray)
+
+[871. 最低加油次数](https://leetcode.cn/problems/minimum-number-of-refueling-stops/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L871_minRefuelStops](L871_minRefuelStops)
+
+[882. 细分后的图中的可到达节点数](https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L882_reachableNodes](L882_reachableNodes)

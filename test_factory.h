@@ -46,6 +46,7 @@
 #include "L855_ExamRoom/L855_ExamRoom.h"
 #include "L857_mincostToHireWorkers/L857_mincostToHireWorkers.h"
 #include "L862_shortestSubarray/L862_shortestSubarray.h"
+#include "L871_minRefuelStops/L871_minRefuelStops.h"
 
 class test_factory {
 private:
@@ -145,6 +146,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L862") {
             std::shared_ptr<L862_shortestSubarray> tmp = std::make_shared<L862_shortestSubarray>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L871") {
+            std::shared_ptr<L871_minRefuelStops> tmp = std::make_shared<L871_minRefuelStops>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }
