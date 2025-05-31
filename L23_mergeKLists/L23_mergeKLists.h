@@ -20,10 +20,11 @@ private:
     ListNode* mergeKLists(vector<ListNode*>& lists) ;
 public:
     struct Status {
+        Status(int v, ListNode* p) : val(v), ptr(p) {}
         int val;
-        ListNode *ptr;
-        bool operator < (const Status &rhs) const {
-            return val > rhs.val;
+        ListNode* ptr;
+        bool operator < (const Status &ptr) const {
+            return val > ptr.val;
         }
     };
     L23_mergeKLists(){}
