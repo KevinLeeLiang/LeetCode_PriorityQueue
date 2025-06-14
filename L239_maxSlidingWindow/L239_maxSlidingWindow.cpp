@@ -15,18 +15,18 @@
 
 vector<int> L239_maxSlidingWindow::maxSlidingWindow(vector<int> &nums, int k) {
     vector<int>ans;
-    deque<int> dq;
-    for (int i = 0; i < nums.size(); i++) {
-        while (!dq.empty() && nums[dq.back()] <= nums[i]) {
-            dq.pop_back();
+    priority_queue<pair<int,int>>q;
+    for (int i = 0; i < k; ++i) {
+        q.emplace(nums[i], i);
+    }
+    if (q.size() > 0)
+        ans.push_back(q.top().first);
+    for (int i = k; i < nums.size(); ++i) {
+        q.emplace(nums[i], i);
+        while (q.top().second <= i - k) {
+            q.pop();
         }
-        while (!dq.empty() && dq.front() <= i - k) {
-            dq.pop_front();
-        }
-        dq.push_back(i);
-        if (i >= k - 1) {
-            ans.push_back(nums[dq.front()]);
-        }
+        ans.push_back(q.top().first);
     }
     return ans;
 }
