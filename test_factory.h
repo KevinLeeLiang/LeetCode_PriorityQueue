@@ -47,6 +47,8 @@
 #include "L857_mincostToHireWorkers/L857_mincostToHireWorkers.h"
 #include "L862_shortestSubarray/L862_shortestSubarray.h"
 #include "L871_minRefuelStops/L871_minRefuelStops.h"
+#include "L912_sortArray/L912_sortArray.h"
+#include "L973_kClosest/L973_kClosest.h"
 
 class test_factory {
 private:
@@ -149,6 +151,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L871") {
             std::shared_ptr<L871_minRefuelStops> tmp = std::make_shared<L871_minRefuelStops>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L912") {
+            std::shared_ptr<L912_sortArray> tmp = std::make_shared<L912_sortArray>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L973") {
+            std::shared_ptr<L973_kClosest> tmp = std::make_shared<L973_kClosest>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }

@@ -73,3 +73,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [871. 最低加油次数](https://leetcode.cn/problems/minimum-number-of-refueling-stops/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L871_minRefuelStops](L871_minRefuelStops)
 
 [882. 细分后的图中的可到达节点数](https://leetcode.cn/problems/reachable-nodes-in-subdivided-graph/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L882_reachableNodes](L882_reachableNodes)
+
+[912. 排序数组](https://leetcode.cn/problems/sort-an-array/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L912_sortArray](L912_sortArray)
+
+[973. 最接近原点的 K 个点](https://leetcode.cn/problems/k-closest-points-to-origin/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L973_kClosest](L973_kClosest)
