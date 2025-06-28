@@ -77,3 +77,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [912. 排序数组](https://leetcode.cn/problems/sort-an-array/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L912_sortArray](L912_sortArray)
 
 [973. 最接近原点的 K 个点](https://leetcode.cn/problems/k-closest-points-to-origin/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L973_kClosest](L973_kClosest)
+
+[1046. 最后一块石头的重量](https://leetcode.cn/problems/last-stone-weight/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1046_lastStoneWeight](L1046_lastStoneWeight)
+
+[1054. 距离相等的条形码](https://leetcode.cn/problems/distant-barcodes/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1054_rearrangeBarcodes](L1054_rearrangeBarcodes)

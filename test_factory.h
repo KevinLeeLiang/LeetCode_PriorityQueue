@@ -49,6 +49,8 @@
 #include "L871_minRefuelStops/L871_minRefuelStops.h"
 #include "L912_sortArray/L912_sortArray.h"
 #include "L973_kClosest/L973_kClosest.h"
+#include "L1046_lastStoneWeight/L1046_lastStoneWeight.h"
+#include "L1054_rearrangeBarcodes/L1054_rearrangeBarcodes.h"
 
 class test_factory {
 private:
@@ -157,6 +159,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L973") {
             std::shared_ptr<L973_kClosest> tmp = std::make_shared<L973_kClosest>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L1046") {
+            std::shared_ptr<L1046_lastStoneWeight> tmp = std::make_shared<L1046_lastStoneWeight>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L1054") {
+            std::shared_ptr<L1054_rearrangeBarcodes> tmp = std::make_shared<L1054_rearrangeBarcodes>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
     }
