@@ -81,3 +81,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [1046. 最后一块石头的重量](https://leetcode.cn/problems/last-stone-weight/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1046_lastStoneWeight](L1046_lastStoneWeight)
 
 [1054. 距离相等的条形码](https://leetcode.cn/problems/distant-barcodes/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1054_rearrangeBarcodes](L1054_rearrangeBarcodes)
+
+[1094. 拼车](https://leetcode.cn/problems/car-pooling/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1094_carPooling](L1094_carPooling)
+
+[1172. 餐盘栈](https://leetcode.cn/problems/dinner-plate-stacks/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1172_DinnerPlates](L1172_DinnerPlates)
