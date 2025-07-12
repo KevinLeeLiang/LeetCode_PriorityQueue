@@ -85,3 +85,5 @@ LeetCode堆（优先队列）算法题的解题仓库
 [1094. 拼车](https://leetcode.cn/problems/car-pooling/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1094_carPooling](L1094_carPooling)
 
 [1172. 餐盘栈](https://leetcode.cn/problems/dinner-plate-stacks/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1172_DinnerPlates](L1172_DinnerPlates)
+
+[1263. 推箱子](https://leetcode.cn/problems/shift-2d-grid/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1263_minPushBox](L1263_minPushBox)

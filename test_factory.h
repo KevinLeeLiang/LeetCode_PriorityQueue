@@ -52,6 +52,8 @@
 #include "L1046_lastStoneWeight/L1046_lastStoneWeight.h"
 #include "L1054_rearrangeBarcodes/L1054_rearrangeBarcodes.h"
 #include "L1094_carPooling/L1094_carPooling.h"
+#include "L1172_DinnerPlates/L1172_DinnerPlates.h"
+#include "L1263_minPushBox/L1263_minPushBox.h"
 
 class test_factory {
 private:
@@ -170,7 +172,14 @@ private:
         } else if (title == "L1094") {
             std::shared_ptr<L1094_carPooling> tmp = std::make_shared<L1094_carPooling>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L1172") {
+            std::shared_ptr<L1172_DinnerPlates> tmp = std::make_shared<L1172_DinnerPlates>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L1263") {
+            std::shared_ptr<L1263_minPushBox> tmp = std::make_shared<L1263_minPushBox>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
+
     }
 public:
     test_factory(string title) {
