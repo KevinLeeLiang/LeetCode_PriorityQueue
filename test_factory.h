@@ -54,6 +54,7 @@
 #include "L1094_carPooling/L1094_carPooling.h"
 #include "L1172_DinnerPlates/L1172_DinnerPlates.h"
 #include "L1263_minPushBox/L1263_minPushBox.h"
+#include "L1337_kWeakestRows/L1337_kWeakestRows.h"
 
 class test_factory {
 private:
@@ -177,6 +178,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         } else if (title == "L1263") {
             std::shared_ptr<L1263_minPushBox> tmp = std::make_shared<L1263_minPushBox>();
+            solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
+        } else if (title == "L1337") {
+            std::shared_ptr<L1337_kWeakestRows> tmp = std::make_shared<L1337_kWeakestRows>();
             solution_ = std::dynamic_pointer_cast<LeetcodePriorityQueue>(tmp);
         }
 
