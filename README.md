@@ -87,3 +87,7 @@ LeetCode堆（优先队列）算法题的解题仓库
 [1172. 餐盘栈](https://leetcode.cn/problems/dinner-plate-stacks/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1172_DinnerPlates](L1172_DinnerPlates)
 
 [1263. 推箱子](https://leetcode.cn/problems/shift-2d-grid/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1263_minPushBox](L1263_minPushBox)
+
+[1337. 矩阵中战斗力最弱的 K 行](https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1337_kWeakestRows](L1337_kWeakestRows)
+
+[1338. 数组大小减半](https://leetcode.cn/problems/reduce-array-size-to-the-half/description/?envType=problem-list-v2&envId=heap-priority-queue) : [L1338_minSetSize](L1338_minSetSize)
